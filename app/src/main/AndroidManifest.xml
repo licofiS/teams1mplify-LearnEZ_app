@@ -9,14 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnEZ">
-        <activity android:name=".QuotesView"></activity>
-
+        <activity android:name=".Learn"></activity>
+        <activity android:name=".Information" />
+        <activity android:name=".Donate" />
+        <activity android:name=".QuotesView" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/Theme.LearnEZ.NoActionBar">
-        </activity>
-
+            android:theme="@style/Theme.LearnEZ.NoActionBar" />
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
