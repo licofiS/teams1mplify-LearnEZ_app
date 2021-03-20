@@ -20,7 +20,7 @@
         app:defaultNavHost="true"
         app:navGraph="@navigation/donate_navigation"/>
 
-    <!--               -->
+    <!--     Buttons          -->
 
     <LinearLayout
         android:id="@+id/linearLayout3"

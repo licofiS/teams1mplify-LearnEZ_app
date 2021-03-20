@@ -1,14 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/back_grey"
+    android:layout_marginBottom="60dp"
+    android:isScrollContainer="false"
+    android:scrollbars="vertical"
+    android:fitsSystemWindows="true"
     tools:context=".ui.donate_fragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
+        android:layout_marginTop="100dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:background="@color/back_grey"
+        android:orientation="vertical">
 
-</FrameLayout>
+        <TextView
+            android:id="@+id/donate_quote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/aladin"
+            android:text="@string/donate_quote"
+            android:textAlignment="center"
+            android:textColor="@color/yellow"
+            android:textSize="35sp"
+            android:padding="15dp"/>
+
+        <TextView
+            android:id="@+id/donate_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:fontFamily="@font/aladin"
+            android:padding="15dp"
+            android:text="@string/donate_content"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            tools:fontFamily="@font/adamina" />
+
+        <Button
+            android:shadowColor="@android:color/transparent"
+            android:id="@+id/contactus"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Call Us"
+            android:textColor="@color/yellow"
+            android:textSize="25sp"
+            android:background="@drawable/yellow_border_layout"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+
+
+</ScrollView>
