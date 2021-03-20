@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="EngineeringUniversity">
+        <item>
+            1.Indian Institute of Technology
+        </item>
+        <item>
+            2.National Institute of Technology
+        </item>
+        <item>
+            3.Indian Institute of Information Technology
+        </item>
+        <item>
+            4.Vellore Institute of Technology
+        </item>
+        <item>
+            5.Jadavpur University
+        </item>
+    </string-array>
+
+
+    <string-array name="MajorExam">
+        <item>1.JEE Advanced</item>
+        <item> 2.JEE Mains </item>
+        <item> 3.BITSAT </item>
+        <item> 4.COMEDK </item>
+        <item> 5.WBJEE </item>
+        <item> 6.MAH-CET </item>
+    </string-array>
+
+    <string-array name="eligible">
+        <item>1.Student must pass class 12 in Science stream</item>
+        <item>2.Student must passed in 3 subjects Physics, Chemistry, Mathematics with at least 60% cumulative </item>
+        <item>3.Gap between the pass out year and exam date shouldn\'t be more than 2 years</item>
+        <item>4.For JEE Advanced student must clear JEE Mains</item>
+    </string-array>
+
+
+</resources>
