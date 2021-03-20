@@ -8,8 +8,7 @@
             android:id="@+id/nav_home"
             android:icon="@drawable/profile"
             android:title="MY PROFILE"
-            android:checked="true"
-            />
+            android:checked="true" />
 
         <item
             android:id="@+id/about_us"

@@ -9,7 +9,7 @@
     tools:openDrawer="start"
     android:background="@color/back_grey">
 
-    <!---->
+    <!-- -->
 
     <include
         layout="@layout/donate_bar"
