@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/back_grey"
     android:layout_marginBottom="60dp"
     android:isScrollContainer="false"
@@ -11,10 +12,11 @@
     tools:context=".ui.donate_fragment">
 
     <LinearLayout
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="70dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/back_grey"
+        android:layout_marginBottom="20dp"
         android:orientation="vertical">
 
         <TextView
@@ -50,6 +52,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Call Us"
+            android:textColor="@color/yellow"
+            android:textSize="25sp"
+            android:background="@drawable/yellow_border_layout"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/emailus"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Us"
             android:textColor="@color/yellow"
             android:textSize="25sp"
             android:background="@drawable/yellow_border_layout"
