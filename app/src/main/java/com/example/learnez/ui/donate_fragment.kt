@@ -28,6 +28,21 @@ class donate_fragment : Fragment() {
             val intent = Intent(Intent.ACTION_DIAL,Uri.parse("tel:"+"7586972680"))
             startActivity(intent)
         }
+
+        val email_us_btn: Button = root.findViewById(R.id.emailus)
+
+        val message: String = "State: " + "\n\n City: " + "\n\n Address: " + "\n\n Contact Details: " + "\n\n Subjects"+"\n\n Warm Regards" + "\nName: "
+
+        val mailid: String = "samikchoudhury15@gmail.com".trim()
+        email_us_btn.setOnClickListener{
+            val mintent = Intent(Intent.ACTION_SEND,Uri.parse("mailto:" + mailid))
+            //Adding Subject
+            mintent.putExtra(Intent.EXTRA_SUBJECT, "I want to donate Books")
+            //Adding message
+            mintent.putExtra(Intent.EXTRA_TEXT, message)
+
+            startActivity(mintent)
+        }
         return root
     }
 }
