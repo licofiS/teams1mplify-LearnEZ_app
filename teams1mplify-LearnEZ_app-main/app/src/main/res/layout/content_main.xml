@@ -5,28 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:ignore="ExtraText"
-    tools:showIn="@layout/donate_bar">
+    tools:showIn="@layout/app_bar_main">
 
     <fragment
-        android:id="@+id/nav_donate_fragment"
+        android:id="@+id/nav_host_fragment"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:defaultNavHost="true"
-        app:navGraph="@navigation/donate_navigation"/>
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navGraph="@navigation/mobile_navigation" />
 
-    <!--               -->
-
+    <!--Created navigation bottom using button-->
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#201F1F"
+        android:background="#6B232323"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,10 +36,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:color/transparent"
-            android:drawableTop="@drawable/home_button_white"
+            android:drawableTop="@drawable/home_button"
             android:padding="5dp"
             android:text="Home"
-            android:textColor="@color/white"
+            android:textColor="@color/yellow"
             android:textSize="10dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -90,10 +87,10 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:background="@android:color/transparent"
-            android:drawableTop="@drawable/donate_button_yellow"
+            android:drawableTop="@drawable/donate_button_white"
             android:padding="5dp"
             android:text="Donate"
-            android:textColor="@color/yellow"
+            android:textColor="@color/white"
             android:textSize="10dp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
