@@ -2,20 +2,20 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    android:id="@+id/info_navigation"
+    app:startDestination="@+id/info">
 
     <fragment
-        android:id="@+id/nav_home"
-        android:name="com.example.learnez.ui.home.HomeFragment"
-        android:label="HOME"
-        tools:layout="@layout/fragment_home" />
+        android:id="@+id/info"
+        android:name="com.example.learnez.ui.info_fragment"
+        android:label="INFORMATION"
+        tools:layout="@layout/info_fragment" />
 
-    <fragment
-        android:id="@+id/nav_stats"
-        android:name="com.example.learnez.ui.gallery.GalleryFragment"
-        android:label="STATISTICS"
-        tools:layout="@layout/fragment_gallery" />
+<!--    <fragment-->
+<!--        android:id="@+id/nav_stats"-->
+<!--        android:name="com.example.learnez.ui.gallery.GalleryFragment"-->
+<!--        android:label="STATISTICS"-->
+<!--        tools:layout="@layout/fragment_gallery" />-->
 
 
     <fragment
