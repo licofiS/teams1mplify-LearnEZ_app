@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3D3D3D"
+    android:layout_marginBottom="60dp"
+    android:isScrollContainer="false"
+    android:scrollbars="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.info_fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Career View -->
+
+        <LinearLayout
+            android:padding="10dp"
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal"
+            tools:ignore="Suspicious0dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Career:- "
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <!-- Career Spinner -->
+            <Spinner
+                android:id="@+id/Career"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/white_border"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <!-- Interested View -->
+
+        <LinearLayout
+            android:padding="10dp"
+            android:id="@+id/subjectlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Types:- "
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <!-- Interested Spinner -->
+            <Spinner
+                android:id="@+id/Interested"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/white_border"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <!-- Job Profile -->
+
+        <LinearLayout
+            android:padding="10dp"
+            android:id="@+id/topiclayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Job Profile:- "
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <!-- Job Profile Spinner -->
+            <Spinner
+                android:id="@+id/JobProfile"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/white_border"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <!-- Median Salary -->
+
+        <LinearLayout
+            android:padding="10dp"
+            android:id="@+id/Salarylayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Median Salary:- "
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <!-- Job Profile Spinner -->
+            <TextView
+                android:id="@+id/MedianSalary"
+                android:paddingBottom="5dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:layout_width="0dp"
+                android:textSize="20sp"
+                android:text="5.5 LPA - 10 LPA"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/white_border"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <!-- Future Scope -->
+
+        <LinearLayout
+            android:padding="10dp"
+            android:id="@+id/Scopelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Future Scope:- "
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <!-- Scope text -->
+            <TextView
+                android:id="@+id/Scope"
+                android:paddingBottom="5dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:textSize="20sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/white_border"
+                android:padding="5dp"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:text="Better/Good/Average"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <!-- Foreign Studies -->
+
+        <LinearLayout
+            android:padding="10dp"
+            android:id="@+id/foreignlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Foreign Studies:- "
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <!-- Scope text -->
+            <TextView
+                android:id="@+id/ForeignStudies"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:background="@drawable/white_border"
+                android:padding="5dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:text="USA/Canada/Australia"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+
+        <!-- Best University -->
+
+        <LinearLayout
+            android:padding="10dp"
+            android:id="@+id/Universitylayout"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Best University:- "
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <ListView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/Univlsit"
+                android:layout_weight="1"
+                android:background="@color/white"/>
+
+        </LinearLayout>
+
+        <!-- Major Exams -->
+
+        <LinearLayout
+            android:padding="10dp"
+            android:id="@+id/examlayout"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Major Exams:- "
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <ListView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/examlsit"
+                android:layout_weight="1"
+                android:background="@color/white"/>
+
+        </LinearLayout>
+
+        <!-- Eligibility Criteria -->
+
+        <LinearLayout
+            android:padding="10dp"
+            android:id="@+id/eligibilitylayout"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:text="Eligibility:- "
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <ListView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/eligibility"
+                android:layout_weight="1"
+                android:background="@drawable/white_border"/>
+
+        </LinearLayout>
+
+        <!-- Shiksha redirect link -->
+
+        <LinearLayout
+            android:id="@+id/imagelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/Shiksha"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableTop="@drawable/shiksha"
+                android:padding="5dp"
+                android:text="Know more"
+                android:textAlignment="center"
+                android:textColor="@color/yellow"
+                android:textSize="25sp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
