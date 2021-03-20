@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Donate">
+    tools:context=".MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
@@ -14,7 +14,7 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/activity_donate"/>
+    <include layout="@layout/content_main"/>
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -23,6 +23,6 @@
         android:background="?attr/colorPrimary"
         app:layout_anchor="@+id/appBarLayout"
         app:layout_anchorGravity="center"
-        app:titleTextColor="@color/white"  />
+        app:titleTextColor="@color/white" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

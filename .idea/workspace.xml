@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:learn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="51292fd5-a859-4c25-ab47-96d143a53bec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/donate_button_yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/learn_button1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/androidTest/java/com/example/learnez/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/java/com/example/learnez/Donate.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/java/com/example/learnez/Information.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/java/com/example/learnez/Learn.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/java/com/example/learnez/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/java/com/example/learnez/QuotesView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/java/com/example/learnez/SplashScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/java/com/example/learnez/ui/aboutus.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/java/com/example/learnez/ui/donate_fragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/java/com/example/learnez/ui/gallery/GalleryFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/java/com/example/learnez/ui/home/HomeFragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/java/com/example/learnez/ui/home/HomeViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/java/com/example/learnez/ui/info_fragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/java/com/example/learnez/ui/learn_fragment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/drawable/donate_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/drawable/donate_button_white.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/drawable/home_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/drawable/home_button_white.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/drawable/ic_menu_camera.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/drawable/ic_menu_gallery.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/drawable/ic_menu_slideshow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/drawable/info_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/drawable/info_button_white.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/drawable/learn_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/drawable/learn_button_white.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/drawable/side_nav_bar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/drawable/white_border.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/layout/activity_donate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/layout/activity_information.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/layout/activity_learn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/layout/activity_quotes_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/layout/activity_splash_screen.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/layout/app_bar_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/layout/content_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/layout/donate.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/layout/donate_bar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/layout/donate_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/layout/fragment_aboutus.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/layout/fragment_gallery.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/layout/fragment_slideshow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/layout/info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/layout/info_bar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/layout/info_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/layout/learn.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/layout/learn_bar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/layout/learn_fragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/layout/nav_header_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/menu/activity_main_drawer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/menu/donate_drawer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/menu/info_drawer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/menu/learn_drawer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/menu/main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/navigation/donate_navigation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/navigation/info_navigation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/navigation/learn_navigation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/navigation/mobile_navigation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/app/src/test/java/com/example/learnez/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teams1mplify-LearnEZ_app-main/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_donate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_donate.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/donate.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/donate.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/donate_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/donate_bar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/donate_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/donate_navigation.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ProjectId" id="1q0TQ0EF3sH5d8ZV21XmVq8qqbR" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ResourceManagerPrefKey.ResourceType" value="LAYOUT" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="LearnEZ.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="51292fd5-a859-4c25-ab47-96d143a53bec" name="Default Changelist" comment="" />
+      <created>1616215487625</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616215487625</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="220" y="94" key="AndroidCreateResourceFileDialog" timestamp="1616222273189">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="220" y="94" key="AndroidCreateResourceFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1616222273189" />
+    <state x="420" y="94" key="FileChooserDialogImpl" timestamp="1616222796252">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="420" y="94" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1616222796252" />
+    <state x="220" y="82" key="IDE.errors.dialog" timestamp="1616219559728">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="220" y="82" key="IDE.errors.dialog/0.0.1280.680@0.0.1280.680" timestamp="1616219559728" />
+  </component>
+</project>
