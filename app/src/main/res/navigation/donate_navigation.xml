@@ -2,8 +2,8 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    android:id="@+id/donate_navigation"
+    app:startDestination="@+id/donate">
 
     <fragment
         android:id="@+id/donate"
@@ -17,7 +17,7 @@
             android:id="@+id/nav_stats"
             android:name="com.example.learnez.ui.gallery.GalleryFragment"
             android:label="STATISTICS"
-            tools:layout="@layout/fragment_gallery" />
+            tools:layout="@layout/fragment_gallery" /> -->
 
 
         <fragment
@@ -25,6 +25,11 @@
             android:name="com.example.learnez.ui.aboutus"
             android:label="ABOUT US"
             tools:layout="@layout/fragment_aboutus" />
-    -->
+
+    <fragment
+        android:id="@+id/sign_option"
+        android:name="com.example.learnez.ui.LoginFragment"
+        android:label="SIGN IN/ SIGN UP"
+        tools:layout="@layout/fragment_home" />
 
 </navigation>
