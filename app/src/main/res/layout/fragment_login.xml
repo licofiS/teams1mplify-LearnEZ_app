@@ -55,10 +55,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password"
         android:background="@drawable/yellow_border"
-        android:textColor="@color/black"
-        />
-
-
+        android:textColor="@color/black" />
 
 
     <ProgressBar
