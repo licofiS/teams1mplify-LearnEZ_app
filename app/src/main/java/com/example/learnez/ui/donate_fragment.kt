@@ -34,6 +34,7 @@ class donate_fragment : Fragment() {
         val message: String = "State: " + "\n\n City: " + "\n\n Address: " + "\n\n Contact Details: " + "\n\n Subjects"+"\n\n Warm Regards" + "\nName: "
 
         val mailid: String = "samikchoudhury15@gmail.com".trim()
+
         email_us_btn.setOnClickListener{
             val mintent = Intent(Intent.ACTION_SEND,Uri.parse("mailto:" + mailid))
             //Adding Subject

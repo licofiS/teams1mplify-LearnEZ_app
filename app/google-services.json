@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "784675305691",
+    "project_id": "learnez-aeda5",
+    "storage_bucket": "learnez-aeda5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784675305691:android:2df73d9aaa3101b99674fe",
+        "android_client_info": {
+          "package_name": "com.example.learnez"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784675305691-9mqq55iat238r005ft4i46t859j57cc5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIQ76_c8r0UaUgn5bu2aXzwuLX8rqFFs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784675305691-9mqq55iat238r005ft4i46t859j57cc5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
