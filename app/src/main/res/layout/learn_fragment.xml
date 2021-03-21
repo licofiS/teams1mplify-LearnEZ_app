@@ -179,35 +179,53 @@
                 android:textAlignment="center"
                 android:textColor="@color/white"
                 android:textSize="35sp" />
-            <TextView
-                android:layout_width="match_parent"
+
+            <Button
+                android:id="@+id/hcverma1"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:padding="5dp"
-                android:text="1. HC Verma"
+                android:background="@drawable/yellow_border"
+                android:textColor="@color/black"
+                android:paddingRight="2dp"
+                android:paddingLeft="2dp"
+                android:layout_marginTop="3dp"
+                android:text="1. HC Verma PART 1"
                 android:textAlignment="inherit"
-                android:textColor="@color/white"
                 android:textSize="20sp" />
-            <TextView
-                android:layout_width="match_parent"
+
+            <Button
+                android:id="@+id/hcverma2"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:padding="5dp"
-                android:text="2. DC Pandey"
+                android:background="@drawable/yellow_border"
+                android:textColor="@color/black"
+                android:paddingRight="2dp"
+                android:paddingLeft="2dp"
+                android:layout_marginTop="3dp"
+                android:text="2. HC VERMA PART 2"
                 android:textAlignment="inherit"
-                android:textColor="@color/white"
                 android:textSize="20sp" />
-            <TextView
-                android:layout_width="match_parent"
+
+            <Button
+                android:id="@+id/ncert"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:padding="5dp"
+                android:background="@drawable/yellow_border"
+                android:textColor="@color/black"
+                android:paddingRight="2dp"
+                android:paddingLeft="2dp"
+                android:layout_marginTop="3dp"
                 android:text="3. NCERT"
                 android:textAlignment="inherit"
-                android:textColor="@color/white"
                 android:textSize="20sp" />
 
         </LinearLayout>

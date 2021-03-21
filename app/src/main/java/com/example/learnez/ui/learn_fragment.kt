@@ -174,6 +174,29 @@ class learn_fragment : Fragment() {
             }
 
         }
+        val hcverma_btn1: Button = root.findViewById(R.id.hcverma1)
+
+        hcverma_btn1.setOnClickListener {
+
+            val shiksha_intent: Intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=eucationkeeda.hcvermasol_i"))
+            startActivity(shiksha_intent)
+        }
+
+        val hcverma_btn2: Button = root.findViewById(R.id.hcverma2)
+
+        hcverma_btn2.setOnClickListener {
+
+            val shiksha_intent: Intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=educationkeeda.hcvermasol_2"))
+            startActivity(shiksha_intent)
+        }
+
+        val ncert: Button = root.findViewById(R.id.ncert)
+
+        ncert.setOnClickListener {
+
+            val shiksha_intent: Intent = Intent(Intent.ACTION_VIEW, Uri.parse("https://ncert.nic.in/textbook.php?leph1=0-8"))
+            startActivity(shiksha_intent)
+        }
 
         return root
     }
